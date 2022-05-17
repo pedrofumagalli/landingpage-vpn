@@ -23,6 +23,7 @@ body {
 }
 
 ul {
+    list-style: none;
     padding: 0;
 }
 
@@ -116,4 +117,111 @@ header .container a#signup:hover {
     color: #FFFFFF;
 }
 
+#section-banner .everyone img {
+    margin-right: -40px;
+    margin-bottom: 104px;
+}
+
+#section-a .container .everyone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+#section-a .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 33.33%;
+}
+
+#section-a .container .content + .content {
+    border-left: 2px solid #F53838;
+}
+
+#section-a .container img {
+    margin-right: 36px;
+}
+
+#section-b .container .everyone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section-b .everyone .text {
+    padding-left: 170px;
+}
+
+#section-b .everyone .text h2 {
+    font-weight: 500;
+    font-size: 35px;
+    height: 50px;
+}
+
+#section-b .everyone ul {
+    list-style: none;
+}
+
+#section-b .everyone li {
+    display: flex;
+    align-items: center;
+}
+
+#section-b .everyone li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+#section-b .everyone li p {
+   font-size: 14px;
+}
+
+#section-c .container .title {
+   text-align: center;
+}
+#section-c .container .everyone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-c .everyone .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#section-c .everyone .content li img {
+    width: 13px;
+    height: 9px;
+    margin-right: 25px;
+}
+
+#section-c .everyone .content li p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+
+#section-c .everyone .content li {
+    display: flex;
+    align-items: center;
+}
 
